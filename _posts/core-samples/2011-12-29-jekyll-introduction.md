@@ -1,17 +1,24 @@
 ---
 layout: post
-category : lessons
-tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
+category : tutorial
+tagline:
+tags : [jekyll]
 ---
 {% include JB/setup %}
 
 The following was automatically generated with the installation of Jekyll-Bootstrap and they suggest deleting it, but I'm keeping it here for my reference, as well as yours, dear reader. If you're interested in starting your own blog with Jekyll, I recommend reading the below!
 
-
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+
+To create a new post:
+
+    $ rake post title="New Title"
+
+To create a new page:
+
+    $ rake page name="pizza.md"
 
 
 This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
